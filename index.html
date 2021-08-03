@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 
+        Conçu par Alexandre Gaudreau
+        Programme D'application Mobile Multiplatforme
+    -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>Calendar App</header>
+    <section class="calendar-container">
+        <div class="month">
+            <ul>
+                <li class="prev">&#10094;</li>
+                <li id="month-text">August 2021</li>
+                <li class="next">&#10095;</li>
+            </ul>
+        </div>
+        <ul class="weekdays">
+            <li>Sunday</li>
+            <li>Monday</li>
+            <li>Tuesday</li>
+            <li>Wednesday</li>
+            <li>Thursday</li>
+            <li>Friday</li>
+            <li>Saturday</li>
+        </ul>
+        <ul id="calendar-days" class="days"></ul>
+        <div class="calendar-actions">
+            <button class="calendar-actions__btn js-prev" type="button">
+                Previous
+            </button>
+            <button class="calendar-actions__btn js-next" type="button">
+                Next
+            </button>
+        </div>
+    </section>
+</body>
+
+</html>
