@@ -21,6 +21,9 @@ header {
     padding: 40px;
     margin: 0;
 }
+.month ul li{
+    cursor: pointer;
+}
 .weekdays{
     margin: 0;
     background-color: rgb(204, 204, 204);
@@ -44,6 +47,7 @@ button {
     width: 250px;
     height: 75px;
     font-size: 20px;
+    cursor: pointer;
 }
 button:hover{
     background-color: rgb(219, 143, 0);
